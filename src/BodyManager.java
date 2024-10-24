@@ -564,7 +564,7 @@ public class BodyManager {
      * @param starID the star which the planets orbit around
      */
     public void planetsOf(String starID) {
-        Planet[] planets = new Planet[20]; // TODO: constant for 20? Or another way to initialize array
+        Planet[] planets = new Planet[20];
         int numPlanets = 0;
         for (int i = 0; i < numBodies; i++) {
             if (bodies.get(i) instanceof Moon && ((Moon) bodies.get(i)).orbitPlanet.equals(starID)

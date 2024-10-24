@@ -51,8 +51,6 @@ public class Circle extends Body {
         this.updateProperties();
     }
 
-    // TODO Create another constructor
-
     /* METHODS */
 
     /**
